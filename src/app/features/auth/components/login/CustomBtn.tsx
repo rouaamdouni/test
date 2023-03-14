@@ -11,7 +11,7 @@ export default function CustomBtn({ children, type, clickHandler }: SubmitButton
         <button
             type={type}
             onClick={clickHandler}
-            style={{ width: '50% ', height: '38px auto', border: '1px solid #05445E', fontSize: '14px', borderRadius: '5px', margin: '5px', backgroundColor: 'transparent', display: 'flex', justifyContent: 'left', alignItems: 'center', paddingLeft: '22px' }}
+            style={{ width: '50% ', height: '38px auto', border: '1px solid #05445E', fontSize: '14px', borderRadius: '5px', margin: '5px', backgroundColor: 'white', display: 'flex', justifyContent: 'left', alignItems: 'center', paddingLeft: '22px' }}
         >
             {children}
         </button>

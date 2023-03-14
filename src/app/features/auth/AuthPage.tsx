@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect } from 'react'
 import { Outlet, Route, Routes } from 'react-router-dom'
-import { Registration } from './components/register/Registration'
 import { ForgotPassword } from './components/forgotPassword/ForgotPassword'
 import { Login } from './components/login/Login'
 import { toAbsoluteUrl } from '../../../_metronic/helpers'
+
+import { Registration } from './components/register/Registration'
 
 const AuthLayout = () => {
   useEffect(() => {
